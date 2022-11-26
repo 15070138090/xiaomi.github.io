@@ -1,0 +1,613 @@
+/* 头部 header */
+
+header {
+    position: relative;
+    height: 100px;
+    line-height: 100px;
+}
+
+
+/* js */
+
+
+/* 下载app */
+
+.download {
+    position: absolute;
+    top: 0;
+    left: 545px;
+    z-index: 2;
+}
+
+.download .sanjiao {
+    position: absolute;
+    top: -14px;
+    left: 45px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border: 7px solid transparent;
+    border-bottom-color: #ffffff;
+}
+
+.download a {
+    display: block;
+    text-align: center;
+    line-height: 14px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+}
+
+.download a img {
+    width: 85px;
+    height: 85px;
+}
+
+.download a p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #5f5f5f;
+}
+
+header .hd-logo {
+    float: left;
+}
+
+header .hd-logo h5 a {
+    margin-top: 25px;
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: url(../images/logo-mi2.png);
+    background-size: 56px 56px;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+header .hd-nav {
+    float: left;
+    margin-left: 120px;
+}
+
+header .hd-nav ul {
+    float: left;
+}
+
+header .hd-nav ul li {
+    float: left;
+    padding: 0 10px;
+}
+
+header .hd-nav ul li a {
+    font-size: 16px;
+    color: #333333;
+}
+
+header .hd-nav ul li a:hover {
+    color: red;
+}
+
+header .hd-search {
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    float: right;
+}
+
+header .hd-search:hover .input-search,
+header .hd-search:hover .input-btn {
+    border: 1px solid #b0b0b0;
+}
+
+header .hd-search:hover .input-btn {
+    border-left: none;
+}
+
+header .hd-search .input-search {
+    position: relative;
+    float: left;
+    width: 245px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+}
+
+header .hd-search .input-btn {
+    position: relative;
+    float: left;
+    width: 52px;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-left: none;
+    background-color: #fff;
+    content: '\e986';
+    font-family: 'icomoon';
+    font-size: 20px;
+}
+
+header .hd-search .input-btn:hover {
+    color: #fff;
+}
+
+header .hd-search .input-btn:hover {
+    background-color: coral;
+}
+
+
+/* main 主体内容 */
+
+.main_content {
+    position: relative;
+    margin-top: 2px;
+}
+
+.main_content .main_content_top {
+    display: flex;
+    position: relative;
+    background: url(../images/xiao1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+/* 首页下拉子菜单 header_submenu */
+
+.header_submenu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+    height: 230px;
+    padding: 50px 0;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 2px #ddd;
+}
+
+.header_submenu .hd_submenu_main {
+    text-align: center;
+    padding: 0 auto;
+}
+
+.header_submenu a {
+    display: block;
+}
+
+.header_submenu ul {
+    float: left;
+}
+
+.header_submenu ul li div {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.header_submenu ul li div img {
+    width: 150px;
+    height: 100px;
+}
+
+.header_submenu ul li {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+
+.header_submenu ul li p {
+    margin-top: 15px;
+    color: #000;
+}
+
+.header_submenu ul li p:nth-of-type(2) {
+    margin: 5px 0;
+    color: red;
+}
+
+.main_left_btn,
+.main_right_btn {
+    position: relative;
+    width: 41px;
+    height: 69px;
+}
+
+.main_left_btn {
+    position: absolute;
+    left: 234px;
+    top: 200px;
+}
+
+.main_right_btn {
+    position: absolute;
+    right: 0px;
+    top: 200px;
+}
+
+.main_left_btn:hover,
+.main_right_btn:hover {
+    background-color: #7f7f7f;
+}
+
+.main_left_btn:hover div,
+.main_right_btn:hover div {
+    border-color: #ffffff;
+}
+
+.main_left_btn div,
+.main_right_btn div {
+    width: 20px;
+    height: 20px;
+}
+
+.main_left_btn div {
+    position: absolute;
+    left: 15px;
+    top: 25px;
+    border-bottom: 2px solid #7f7f7f;
+    border-left: 2px solid #7f7f7f;
+    transform: rotate(45deg);
+}
+
+.main_right_btn div {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+    border-top: 2px solid #7f7f7f;
+    border-right: 2px solid #7f7f7f;
+    transform: rotate(45deg);
+}
+
+.main_content .main_dropdown {
+    float: left;
+    width: 234px;
+    height: 460px;
+    padding: 20px 0;
+    background-color: #a5a3a3;
+}
+
+.main_content .main_dropdown li {
+    height: 42px;
+    width: 234px;
+}
+
+.main_content .main_dropdown li a {
+    position: relative;
+    display: block;
+    height: 42px;
+    width: 234px;
+    line-height: 42px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.main_content .main_dropdown li a::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    float: right;
+    width: 7px;
+    height: 7px;
+    transform: rotate(45deg);
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.main_content .main_dropdown li a:hover {
+    background-color: #ff6700;
+}
+
+
+/* 菜单栏右边内容 */
+
+.main_upload {
+    z-index: 3;
+    display: flex;
+    flex: 1;
+    float: left;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 8px 8px 8px #ddd;
+}
+
+.main_upload ul {
+    display: none;
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.main_upload ul li {
+    float: left;
+    width: 25%;
+    height: 76.5px;
+    line-height: 76.5px;
+}
+
+.main_upload ul li img {
+    box-sizing: content-box;
+    width: 40px;
+    height: 45px;
+    padding: 0 20px 0 25px;
+}
+
+.main_content_bottom {
+    width: 100%;
+    margin: 15px 0 26px 0;
+}
+
+.main_content_bottom .menu {
+    float: left;
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+}
+
+.main_content_bottom .menu ul {
+    float: left;
+}
+
+.main_content_bottom .menu ul li {
+    float: left;
+    width: 76px;
+    height: 82px;
+    padding: 0 3px;
+}
+
+.main_content_bottom .menu ul li a {
+    display: block;
+    width: 70px;
+    height: 62px;
+    padding-top: 18px;
+    text-align: center;
+    color: #B0B0B0;
+    overflow: hidden;
+}
+
+.main_content_bottom .menu ul li a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 23px 4px;
+    transform: translate(-1000px, 0);
+    filter: drop-shadow(1000px 0 #B0B0B0);
+}
+
+.main_content_bottom .menu ul li a:hover {
+    color: #ffffff;
+}
+
+.main_content_bottom .menu ul li a:hover img {
+    transform: none;
+    /* 清空所有transform样式 */
+}
+
+.main_content_bottom .hot {
+    float: left;
+}
+
+.main_content_bottom .hot ul {
+    float: left;
+}
+
+.main_content_bottom .hot ul li {
+    margin-left: 10px;
+    float: left;
+}
+
+.main_content_bottom .hot ul li a {
+    width: 316px;
+    height: 170px;
+}
+
+.main_content_bottom .hot ul li a img {
+    width: 312px;
+    height: 170px;
+}
+
+
+/* 商品-手机 */
+
+.goods {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 30px 0;
+}
+
+.goods-nav-icon img {
+    width: 100%;
+}
+
+.phone .phone-hd {
+    margin-top: 20px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.phone .phone-hd h2 {
+    float: left;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.phone .phone-hd a {
+    float: right;
+    color: #333333;
+    font-size: 16px;
+}
+
+.phone .phone-hd a i {
+    position: relative;
+    float: right;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: #afafaf;
+    border-radius: 50%;
+}
+
+.phone .phone-hd a i div {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+    transform: rotate(45deg);
+}
+
+.phone .phone-hd a:hover {
+    color: #ff7339;
+}
+
+.phone .phone-hd a:hover i {
+    background-color: #ff7339;
+}
+
+
+/* phone-goods */
+
+.phone-goods a {
+    display: block;
+}
+
+.phone-goods div {
+    float: left;
+}
+
+.phone-goods div img {
+    width: 234px;
+    height: 610px;
+}
+
+.phone-goods ul li a img {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.phone-goods ul {
+    float: left;
+    width: 966px;
+}
+
+.phone-goods ul li {
+    float: left;
+    width: 230px;
+    height: 300px;
+    margin-left: 11px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.phone-goods ul li a {
+    padding: 20px 0;
+}
+
+.phone-goods ul li a h3 {
+    color: #333333;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+.phone-goods ul li a p {
+    /* 这个单词的意思是如果文字显示不开自动换行 */
+    /* white-space: normal; */
+    /* 1.这个单词的意思是如果文字显示不开也必须强制一行内显示 */
+    white-space: nowrap;
+    /* 2.溢出的部分隐藏起来 */
+    overflow: hidden;
+    /* 3. 文字溢出的时候用省略号来显示 */
+    text-overflow: ellipsis;
+    margin: 0 10px 10px;
+    color: #B0B0B0;
+}
+
+.phone-goods ul li a .p2 {
+    color: red;
+    font-size: 14px;
+}
+
+.phone-goods ul li:nth-child(-n+4) {
+    margin-bottom: 10px;
+}
+
+
+/* 右侧固定功能区 */
+
+.fixed_function {
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+    width: 85px;
+    height: 450px;
+    border: 1px solid #ddd;
+    background-color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fixed_function li {
+    width: 100%;
+    height: 20%;
+}
+
+.fixed_function li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fixed_function li:nth-child(-n+4) {
+    border-bottom: 1px solid #ddd;
+}
+
+.fixed_function li div {
+    padding-top: 15px;
+}
+
+.fixed_function li div::before {
+    content: "\e901";
+    font-family: 'icomoon';
+    font-size: 25px;
+}
+
+
+/* 下载手机app */
+
+.download_handset {
+    position: absolute;
+    top: 0;
+    left: -135px;
+    z-index: 2;
+    padding-right: 20px;
+}
+
+.download_handset a {
+    display: block;
+    text-align: center;
+    line-height: 14px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 1px 1px 1px #ddd;
+}
+
+.download_handset a img {
+    width: 85px;
+    height: 85px;
+}
+
+.download_handset a p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #5f5f5f;
+}
